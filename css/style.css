@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+	/*'..' means 'go up one folder level'*/
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Courier, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.9);
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 10px 30px;
+	border-radius: 10px;
+	/*box-shadow: 0 0 10px 10px rgba(255,255,255,0.2);*/
+}
+
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Lobster', cursive;
+	/*text-shadow: 0 0 5px yellow;*/
+	font-size: 72px;
+	margin: 0;
+	padding: 15px;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 15px;
+}
+
+img {
+	/* Centre the image */
+	display: block;
+	margin: 0 auto;
+	/*border: 5px solid white;*/
+	border-radius: 5px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+	display: none;
+}
+
+.copyright {
+	font-size: 10px;
+	text-align: center;
+	display: block;
+}
+
+a {
+	color: rgb(50,50,50);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	/*text-decoration: underline;*/
+	font-weight: normal;
+}
+
